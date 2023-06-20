@@ -1,2 +1,2 @@
-# My-Server-study
-Linux高性能服务器编程学习
+# My-School-study
+学校课程学习文档
