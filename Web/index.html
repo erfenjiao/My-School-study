@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆页</title>
+    <script>
+        function get(){
+            document.getElementById("s").innerHTML="11";
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" name="name"  id="name" value="">
+        <button type="submit" id="buutton_name" onclick="get()">
+            搜索
+        </button>
+    </form>
+        <div id="s"></div>
+
+
+
+
+    <!-- <form action="http://localhost:8080/login" method="get">
+        <input type="hidden" name="action" value="login">
+        用户名: <input type="text" name="username" pattern="^[a-zA-Z0-9]{6,20}$" title="用户名格式有误">
+        <br>
+        密码: &nbsp;<input type="text" name="passwd" pattern="^[a-zA-Z0-9]{6,20}$" title="密码格式有误">
+        <br>
+        <button type="submit" id="login">登陆</button>
+    </form> -->
+</body>
+</html>
